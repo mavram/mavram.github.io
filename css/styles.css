@@ -16,3 +16,15 @@ body {
 .active-with-caret {
     border-bottom: 2px solid #d4d4d4;
 }
+
+.avatar img:last-child {
+    display:none
+}
+
+.avatar:hover img:first-child {
+    display:none
+}
+
+.avatar:hover img:last-child {
+    display:inline-block
+}
