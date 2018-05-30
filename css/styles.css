@@ -1,6 +1,19 @@
 body {
-    min-height: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.no-hover-decoration:hover,
+.no-hover-decoration:focus {
+    text-decoration: none;
+}
+
+.text-faded {
+    color: #d4d4d4;
+    font-size: .75rem;
+}
+
+.active-with-caret {
+    border-bottom: 2px solid #d4d4d4;
 }
