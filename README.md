@@ -1,8 +1,10 @@
-# www.from26.com #
+# https://www.from26.com #
 
 Mircea's public website. 
 
+  * overview
   * random notes
+  * professional experience
   * resume
   * ...
 
