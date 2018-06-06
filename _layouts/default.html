@@ -17,16 +17,17 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link {{ page.home-marker}}" href="/">home</a>
-                    <a class="nav-item nav-link {{ page.notes-marker}}" href="/notes">notes</a>
-                    <a class="nav-item nav-link {{ page.about-marker}}" href="/about">about</a>
+                    <a class="nav-item nav-link {{page.home-marker}}" href="/">home</a>
+                    <a class="nav-item nav-link {{page.notes-marker}}" href="/notes">notes</a>
+                    <a class="nav-item nav-link {{page.work-experience-marker}}" href="/work-experience">experience</a>
+                    <a class="nav-item nav-link {{page.resume-marker}}" href="/resume">resume</a>
                 </div>
             </div>
         </nav>
 
         {{ content }}
 
-        <div class="container">
+        <div class="{{page.footer-display-mode}} container">
             <div class="row mt-5 mb-3">
                     <div class="col-md">
                         <footer>
@@ -42,6 +43,5 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="index.js"></script>
     </body>
 </html>
