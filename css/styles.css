@@ -27,3 +27,7 @@ a:hover, a:visited, a:link, a:active {
 .avatar:hover img:last-child {
     display:inline-block
 }
+
+li, p {
+    font-weight: 300;
+}
