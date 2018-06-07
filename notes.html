@@ -4,8 +4,19 @@ notes-marker: active-with-caret
 ---
 <div class="container">
     <div class="row mt-5">
-            <div class="col-md">
-                <p class="text-center">Keeping a silent mind.</p>
-            </div>
+        <div class="col">
+            {% assign noOfPosts = 0 %}
+            <ul>
+                {% for post in site.posts %}
+                {% assign noOfPosts = noOfPosts | plus: 1 %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% if noOfPosts == 0 %}
+            <p class="text-center">Keeping a silent mind. For now.</p>
+            {% endif %}
+        </div>
     </div>
 </div>
