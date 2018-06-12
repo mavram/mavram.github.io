@@ -6,13 +6,14 @@ layout: default
         <div class="col-lg-8 col-sm-12">
             <p class="h3 mb-5"><a href="/notes">all </a>{{ page.tag }}</p>
             {% if site.tags[page.tag] %}
-                <ul>
                 {% for post in site.tags[page.tag] %}
-                    <li>
-                        <a href="{{ post.url }}/">{{ post.title }}</a>
-                    </li>
+                    {% capture current_date %}{{post.date | date: "%B, %Y"}}{% endcapture %}
+                    {% if current_date != the_date %}
+                        <p class="h5 mt-4">{{ current_date }}</p>
+                        {% capture the_date %}{{current_date}}{% endcapture %} 
+                    {% endif %}
+                    <a href="{{ post.url }}">{{ post.title }}</a><br/>
                 {% endfor %}
-                </ul>
             {% else %}
                 <p>There are no public notes for this tag.</p>
             {% endif %}
