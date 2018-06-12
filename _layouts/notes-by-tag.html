@@ -5,17 +5,17 @@ layout: default
     <div class="row mt-5 justify-content-center">
         <div class="col-8">
             <p class="display-5 mb-5"><a href="/notes">all</a> | {{ page.tag }}</p>
-            <ul>
-                {% if site.tags[page.tag] %}
-                    {% for post in site.tags[page.tag] %}
-                        <li>
-                            <a href="{{ post.url }}/">{{ post.title }}</a>
-                        </li>
-                    {% endfor %}
-                {% else %}
-                    <p>There are no notes for this tag.</p>
-                {% endif %}
-            <ul>
+            {% if site.tags[page.tag] %}
+                <ul>
+                {% for post in site.tags[page.tag] %}
+                    <li>
+                        <a href="{{ post.url }}/">{{ post.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% else %}
+                <p>There are no public notes for this tag.</p>
+            {% endif %}
         </div>
     </div>
 </div>
