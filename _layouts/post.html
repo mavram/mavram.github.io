@@ -7,7 +7,7 @@ layout: default
             <p class="h3">{{ page.title }}</p>
             <p class="text-muted mb-5">{{ page.date | date: '%B %d, %Y' }}</p>
             {{ content }}
-            <p class="lead text-right">
+            <p class="lead mt-5 text-right">
                 <a href="/notes"><span class="badge badge-pill badge-secondary">all</span></a>&nbsp;
                 {% for tag in page.tags %}
                     <a href="/tags/{{ tag }}"><span class="badge badge-pill badge-primary">{{ tag }}</span></a>&nbsp;

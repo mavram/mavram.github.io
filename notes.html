@@ -5,12 +5,7 @@ notes-marker: active-with-caret
 <div class="container">
     <div class="row mt-5 justify-content-center">
         <div class="col-lg-8 col-sm-12">
-            <p class="h3 mb-5">
-                all
-                {% for tag in site.tags %}
-                    <a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a>
-                {% endfor %}
-            </p>
+            {% include all-tags.html %}
 
             {% for post in site.posts %}
                 {% include post.html post=post %}
