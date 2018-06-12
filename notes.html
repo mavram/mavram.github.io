@@ -8,7 +8,7 @@ notes-marker: active-with-caret
             <p class="h3 mb-5">
                 all
                 {% for tag in site.tags %}
-                    | <a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a>
+                    <a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a>
                 {% endfor %}
             </p>
 
