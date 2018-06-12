@@ -27,9 +27,3 @@ a:hover, a:visited, a:link, a:active {
 .avatar:hover img:last-child {
     display:inline-block
 }
-
-.display-5 {
-    font-size: 1.75rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
