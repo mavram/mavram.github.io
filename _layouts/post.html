@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row mt-5 justify-content-center">
+        <div class="col-8">
+            <p class="h2">{{ page.title }}</p>
+            <p class="lead mb-5">{{ page.date | date: '%B %d, %Y' }}</p>
+            {{ content }}
+            <p class="lead text-right">
+                <a href="/notes"><span class="badge badge-pill badge-secondary">all</span></a>&nbsp;
+                {% for tag in page.tags %}
+                    <a href="/tags/{{ tag }}"><span class="badge badge-pill badge-primary">{{ tag }}</span></a>&nbsp;
+                {% endfor%}
+            </p>
+        </div>
+    </div>
+</div>
