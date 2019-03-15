@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: The Bonehunters, by Steven Erikson
