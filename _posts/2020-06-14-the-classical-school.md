@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Classical Schoole, by Callum Williams
+title: The Classical School, by Callum Williams
 tags: books
 notes-marker: active-with-caret
 ---
