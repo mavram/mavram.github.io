@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software Quality Axioms
-tags: etc
+tags: kb
 notes-marker: active-with-caret
 ---
 * **Axiom of separation of concerns**. Solve complex problems by solving a series of intermediate, simpler problems.
