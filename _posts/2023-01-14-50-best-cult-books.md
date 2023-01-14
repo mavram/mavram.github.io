@@ -4,7 +4,6 @@ title: 50 Best Cult Books by Telegraph
 tags: kb
 notes-marker: active-with-caret
 ---
-
 Our critics present a [selection](https://www.goodreads.com/list/show/34659.50_Best_Cult_Books_The_Daily_Telegraph) of history's most notable cult writing. Some is classic. Some is catastrophic. All of it had the power to inspire.
 
 <!--
