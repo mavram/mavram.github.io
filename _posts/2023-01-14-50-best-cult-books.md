@@ -5,7 +5,7 @@ tags: kb
 notes-marker: active-with-caret
 ---
 
-> Our critics present a [selection](https://www.goodreads.com/list/show/34659.50_Best_Cult_Books_The_Daily_Telegraph) of history's most notable cult writing. Some is classic. Some is catastrophic. All of it had the power to inspire.
+Our critics present a [selection](https://www.goodreads.com/list/show/34659.50_Best_Cult_Books_The_Daily_Telegraph) of history's most notable cult writing. Some is classic. Some is catastrophic. All of it had the power to inspire.
 
 <!--
 In compiling our list, we were looking for the sort of book that people wear like a leather jacket or carry around like a totem. The book that rewires your head: that turns you on to psychedelics; makes you want to move to Greece; makes you a pacifist; gives you a way of thinking about yourself as a woman, or a voice in your head that makes it feel okay to be a teenager; conjures into being a character who becomes a permanent inhabitant of your mental flophouse. We were able to agree, finally, on one thing: you know a cult book when you see one. And people have passionate feelings on both sides: our appeal for suggestions yielded enough for a list at least three times as long as this one.""
