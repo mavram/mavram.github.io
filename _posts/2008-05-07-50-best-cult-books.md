@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 50 Best Cult Books by Telegraph
+title: 50 Best Cult Books (by Telegraph)
 tags: kb
 notes-marker: active-with-caret
 ---
