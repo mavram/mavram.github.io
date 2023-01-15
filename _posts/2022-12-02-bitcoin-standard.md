@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Bitcoin Statndard, by Saifedean Ammous
+title: The Bitcoin Standard, by Saifedean Ammous
 tags: books
 notes-marker: active-with-caret
 ---
