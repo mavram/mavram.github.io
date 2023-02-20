@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The God Is Not Willing, by Steven Erikson
+title: The Roads to Sata, by Alan Booth
 tags: books
 notes-marker: active-with-caret
 ---
