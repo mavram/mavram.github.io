@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Neocha
-tags: kb
+title: What is Life, by Erwin Schrödinger
+tags: books
 notes-marker: active-with-caret
 ---
-[Culture and Creativity in Asia](https://neocha.com/magazine/).
