@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Neural Networks: Zero to Hero
+title: Zero to Hero
 tags: kb
 notes-marker: active-with-caret
 ---
