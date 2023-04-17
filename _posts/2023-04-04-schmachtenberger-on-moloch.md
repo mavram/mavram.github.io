@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liv Boeree & Daniel Schamchtenberger on Moloch
+title: Liv Boeree & Daniel Schmachtenberger on Moloch
 tags: kb
 notes-marker: active-with-caret
 ---
