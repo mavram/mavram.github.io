@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Neocha
+title: Neural Networks: Zero to Hero
 tags: kb
 notes-marker: active-with-caret
 ---
-[Culture and Creativity in Asia](https://neocha.com/magazine/).
+A [course](https://karpathy.ai/zero-to-hero.html) by Andrej Karpathy on building neural networks, from scratch, in code.
