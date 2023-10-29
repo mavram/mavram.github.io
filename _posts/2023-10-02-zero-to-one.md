@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Right To Sex, by Amia Srinivasan
+title: Zero to One, by Peter Thiel
 tags: books
 notes-marker: active-with-caret
 ---

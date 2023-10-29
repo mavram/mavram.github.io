@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Right To Sex, by Amia Srinivasan
+title: The Physicist and the Philosopher, by Jimena Canales
 tags: books
 notes-marker: active-with-caret
 ---
