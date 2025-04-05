@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Live And Let Live
+title: Live and Let Live
 tags: kb
 notes-marker: active-with-caret
 ---
