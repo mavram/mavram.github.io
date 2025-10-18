@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Invention of Morel, by Adolfo Bioy Casares
+title: Hunters of Dune, by Brian Herbert
 tags: books
 notes-marker: active-with-caret
 ---
