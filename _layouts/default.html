@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Mircea Avram</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
+<head>
+    <title>Mircea Avram</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
-        <nav class="navbar navbar-expand-sm navbar-light">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link ml-auto" href="/"><span class="{{page.home-marker}}">home</span></a>
-                    <a class="nav-item nav-link ml-auto" href="/experience"><span class="{{page.experience-marker}}">experience</span></a>
-                    <a class="nav-item nav-link ml-auto" href="/notes"><span class="{{page.notes-marker}}">posts</span></a>
-                </div>
-            </div>
-        </nav>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
 
-        {{ content }}
-
-        <div class="d-print-none container">
-            <div class="row mt-5 pt-5 mb-3">
-                    <div class="col-md">
-                        <footer>
-                            <p class="text-center text-faded">
-                                Shared under
-                                <a class="text-faded" href="http://creativecommons.org/licenses/by/4.0/">CC by 4.0</a> &copy; 2005-2025
-                            </p>
-                        </footer>
-                    </div>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link ml-auto" href="/"><span class="{{page.home-marker}}">home</span></a>
+                <a class="nav-item nav-link ml-auto" href="/experience"><span
+                        class="{{page.experience-marker}}">experience</span></a>
+                <a class="nav-item nav-link ml-auto" href="/notes"><span class="{{page.notes-marker}}">posts</span></a>
             </div>
         </div>
+    </nav>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    </body>
+    {{ content }}
+
+    <div class="d-print-none container">
+        <div class="row mt-5 pt-5 mb-3">
+            <div class="col-md">
+                <footer>
+                    <p class="text-center text-faded">
+                        Shared under
+                        <a class="text-faded" href="http://creativecommons.org/licenses/by/4.0/">CC by 4.0</a> &copy;
+                        2005-2026
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+
 </html>
